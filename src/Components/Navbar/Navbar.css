@@ -94,7 +94,9 @@
   z-index: 1000;
   box-shadow: 0 10px 12px rgb(22 33 39 / 25%);
 }
-
+.main-nav ul a{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 @media (max-width: 767px) {
   .container{
