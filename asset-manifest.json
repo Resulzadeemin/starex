@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/starex/starex/static/css/main.05580ae0.chunk.css",
+    "main.js": "/starex/starex/static/js/main.c0f0203d.chunk.js",
+    "main.js.map": "/starex/starex/static/js/main.c0f0203d.chunk.js.map",
+    "runtime-main.js": "/starex/starex/static/js/runtime-main.604c616a.js",
+    "runtime-main.js.map": "/starex/starex/static/js/runtime-main.604c616a.js.map",
+    "static/css/2.2b8316e7.chunk.css": "/starex/starex/static/css/2.2b8316e7.chunk.css",
+    "static/js/2.8f9871ad.chunk.js": "/starex/starex/static/js/2.8f9871ad.chunk.js",
+    "static/js/2.8f9871ad.chunk.js.map": "/starex/starex/static/js/2.8f9871ad.chunk.js.map",
+    "static/js/3.e9e712ea.chunk.js": "/starex/starex/static/js/3.e9e712ea.chunk.js",
+    "static/js/3.e9e712ea.chunk.js.map": "/starex/starex/static/js/3.e9e712ea.chunk.js.map",
+    "index.html": "/starex/starex/index.html",
+    "static/css/2.2b8316e7.chunk.css.map": "/starex/starex/static/css/2.2b8316e7.chunk.css.map",
+    "static/css/main.05580ae0.chunk.css.map": "/starex/starex/static/css/main.05580ae0.chunk.css.map",
+    "static/js/2.8f9871ad.chunk.js.LICENSE.txt": "/starex/starex/static/js/2.8f9871ad.chunk.js.LICENSE.txt",
+    "static/media/aboutimage1.51694792.png": "/starex/starex/static/media/aboutimage1.51694792.png",
+    "static/media/aboutimage2.a45ef623.png": "/starex/starex/static/media/aboutimage2.a45ef623.png",
+    "static/media/america.595e0bb0.jpg": "/starex/starex/static/media/america.595e0bb0.jpg",
+    "static/media/amerika1.43c16cb7.svg": "/starex/starex/static/media/amerika1.43c16cb7.svg",
+    "static/media/china.7f4aec2d.jpg": "/starex/starex/static/media/china.7f4aec2d.jpg",
+    "static/media/china.c0aaa086.svg": "/starex/starex/static/media/china.c0aaa086.svg",
+    "static/media/footerLogo.4583c3be.svg": "/starex/starex/static/media/footerLogo.4583c3be.svg",
+    "static/media/services.9500681d.jpg": "/starex/starex/static/media/services.9500681d.jpg",
+    "static/media/servicesicon1.b7d68847.svg": "/starex/starex/static/media/servicesicon1.b7d68847.svg",
+    "static/media/servicesicon2.8bf2f1ba.svg": "/starex/starex/static/media/servicesicon2.8bf2f1ba.svg",
+    "static/media/Section1.module.css": "/starex/starex/static/media/starexBG.2fbf3666.jpg",
+    "static/media/starexLogo.cca36296.svg": "/starex/starex/static/media/starexLogo.cca36296.svg",
+    "static/media/turkey.c5bc52f1.jpg": "/starex/starex/static/media/turkey.c5bc52f1.jpg",
+    "static/media/turkey1.4e48c0f3.svg": "/starex/starex/static/media/turkey1.4e48c0f3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.604c616a.js",
+    "static/css/2.2b8316e7.chunk.css",
+    "static/js/2.8f9871ad.chunk.js",
+    "static/css/main.05580ae0.chunk.css",
+    "static/js/main.c0f0203d.chunk.js"
+  ]
+}
