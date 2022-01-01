@@ -23,7 +23,7 @@
 }
 .country select,.delivery select{
     width: 250px;
-    padding: 10px;
+    padding: 9px;
     border-radius: 5px;
     border: 2px solid gray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -32,7 +32,7 @@
 }
 .weight input{
     width: 180px;
-    padding: 10px;
+    padding: 8.1px;
     border-radius: 5px 0 0 5px;
     border: 2px solid gray;
     border-right:none ;
@@ -40,13 +40,13 @@
 }
 .weight select{
     width: 70px;
-    padding: 10px;
+    padding: 9px;
     border-radius: 0 5px 5px 0;
     border: 2px solid gray;
     border-left:0 ;
     outline: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
+    font-size: 14.5px;
     background-color:#fff ;
 }
 .btn h1{
