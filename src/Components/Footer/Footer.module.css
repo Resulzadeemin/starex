@@ -1,0 +1,71 @@
+.footer{
+    margin-top: 100px;
+    background-color:rgba(128, 128, 128, 0.103) ;
+    padding-top: 30px;
+}
+.display{
+    display: flex;
+    justify-content: space-evenly;
+}
+.icons{
+    padding-top:40px;
+}
+.icon{
+    font-size: 30px;
+    padding: 5px;
+    background-color:gray ;
+    color: #fff;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.text{
+    padding-top: 50px;
+}
+.text article{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.phone a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #000;
+}
+.link1 a,article,.link2 a,article,.link3 a,article{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}   
+.link1 a:hover,article:hover,.link2 a:hover,.link3 a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 767px){
+.display{
+    display: block;
+    text-align: center;
+}
+.link1,.link2,.link3 {
+    padding-top: 10px;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+.footer{
+    height: 100vh;
+    transform: translateY(-50px);
+}
+.display{
+    display: block;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 30px;
+}
+.display a,article{
+    font-size: 30px;
+}
+.icon{
+    font-size: 55px;
+}
+}

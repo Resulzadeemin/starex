@@ -1,0 +1,86 @@
+.advan{
+    padding-top: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+.title h1{
+    font-size: 32px;
+    color: #003087;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.cards{
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 50px;
+}
+.card{
+    width: 20%;
+    height: 180px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.178);
+}
+.card:hover{
+    background-color: #005eb51e;
+}
+.card h1{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #272727e8;
+    line-height: 23px;
+}
+.card2{
+    text-align: center;
+    font-size: 50px;
+    color: #005aff;
+    padding-top: 20px;
+}
+
+
+@media screen and (max-width: 767px){
+.advan{
+    width: 100%;
+}
+.title h1{
+    width: 100%;
+    font-size: 28px;
+}   
+.cards{
+    display: block;
+    padding-top: 15px;
+}    
+.card{
+    width: 87%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+.advan{
+width: 100%;
+padding-top: 0px;
+transform: translateY(-230px);  
+}
+.title h1{
+ font-size: 36px;   
+}
+.cards{
+flex-wrap: wrap;
+padding-top: 15px;
+}
+.card{
+ width: 45%;
+ margin-bottom: 20px;   
+}
+}
+
+@media (min-width: 320px) and (max-width: 538px){
+.advan{
+ padding-top: 45px;  
+}    
+}

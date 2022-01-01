@@ -1,0 +1,70 @@
+.select{
+    padding-top: 50px;
+}
+.select select{
+    width: 800px;
+    padding: 10px 10px;
+    outline: none;
+    border-color: gray;
+    box-shadow: 0 0 0 1px gray;
+    font-size: 23px;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color:#fff ;
+
+}
+.select option{
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: gray;
+}
+.country{
+    background-color: rgba(128, 128, 128, 0.041);
+    width: 45%;
+    margin: 0 auto;
+}
+.country p{
+    margin-top: 50px;
+    padding: 50px 40px;
+    color: rgba(20, 20, 20, 0.911);
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    box-shadow:  0 0 5px rgba(128, 128, 128, 0.356);
+}
+.icon{
+    font-size: 30px;
+    margin:0 20px -5px;
+    color: #003087;
+}
+
+@media screen and (max-width: 767px){
+.select select{
+width: 90%;
+}
+.country{
+ width: 90%;   
+}
+.country p{
+padding: 50px 0px;
+font-size: 22px;
+}
+.icon{
+font-size: 30px;
+margin:0 5px -5px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+.select select{
+ width: 88%;
+}   
+.country{
+ width: 88%;   
+}
+.country p{
+font-size: 25px;
+}
+}

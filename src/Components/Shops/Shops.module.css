@@ -1,0 +1,106 @@
+.bg{
+    margin-top: 100px;
+}
+.input{
+    text-align: center;
+}
+.input input{
+    outline: none;
+    border: 0;  
+    padding: 0 80px;
+    border-bottom:1px solid gray;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.shop{
+    display: flex;
+    justify-content: space-between;
+    width: 740px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.shop img{
+    max-width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.loading{
+    text-align: center;
+    padding: 80px;
+}
+.card h1{
+    background-image: radial-gradient( #2c0031, #00badf 0%,#012654d8);
+    color: #fff;
+    box-shadow: 0 0 10px lightblue;
+    border-radius: 3px;
+}
+.card h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.filterbtn{
+    text-align: center;
+    padding-top: 30px;
+}
+.filterbtn button{
+    width:120px;
+    padding: 5px;
+    text-align: start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color:#fff;
+    border-color: #fff;
+	background: linear-gradient(rgb(248, 248, 248) 0%,#003088 92%);
+    border-radius:5px;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.212);
+}
+.filterbtn button[type="all"]{
+    width:140px;
+    padding: 5px;
+    text-align: start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color:#fff;
+    border-color: #fff;
+	background: #eae7e1;
+	background: linear-gradient(rgb(248, 248, 248) 0%,#03215a 92%);
+    border-radius:5px;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.212);
+}
+
+@media screen and (max-width: 767px){
+.input{
+width: 85%;
+margin: 0 auto;
+}   
+.shop{
+ width: 95%;
+ justify-content: space-evenly;
+}
+.shop img{
+ max-width: 140px;
+}
+.filterbtn button{
+width:40%;
+}
+.filterbtn button[type="all"]{
+width:40%;
+margin-top: 8px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+.shop{
+width: 92%;
+justify-content: space-evenly;
+}
+}

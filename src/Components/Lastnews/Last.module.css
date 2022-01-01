@@ -1,0 +1,177 @@
+.last{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.change img{
+    width: 700px;
+    height: 250px;
+}
+.change h1{
+    color: #003087;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.change p{
+    width: 720px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 30px;
+}
+.icon2{
+    margin-right: 10px;
+    font-size: 17px;
+}
+.change time{
+    color: gray;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.timeicon{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+.timeicon time{
+    padding-top: 7px;
+}
+.icon{
+    font-size: 27px;
+    color: gray;
+    margin-left: 20px;
+    background-color: gray;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50px;
+}
+.lastnews h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #003087;
+}
+.title p{
+    padding-top: 30px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: #003087;
+    width: 80%;
+}
+.title time{
+    color: gray;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hr{
+    width: 70%;
+    margin: 0 ;
+    background-color: #000;
+}
+
+@media screen and (max-width: 767px){
+.last{
+width: 90%;
+display: block;
+}
+.last time{
+ font-size: 20px;  
+}
+.icon{
+  font-size: 32px;  
+}
+.icon2{
+ font-size: 20px;
+ margin-top: 4px;   
+}
+.change img{
+width: 100%;
+height: 180px;
+}
+.change p{
+width: 100%;
+padding-top: 13px;
+}
+.timeicon{
+ display: block;
+ text-align: center;
+}
+.icon{
+ margin-top: 15px;
+ text-align: center;   
+}
+.lastnews{
+    text-align: center;
+}
+.lastnews h1{
+  transform: translateY(12px);  
+}
+.title p{
+ width: 100%;
+ font-size: 17px;   
+}
+.title time{
+ font-size: 20px;   
+}
+.hr{
+ width: 96%; 
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+.last{
+width: 90%;
+display: block;
+}
+.last time{
+ font-size: 23px;  
+}
+.icon2{
+ font-size: 23px;
+ margin-top: 3px;   
+}
+.change img{
+width: 100%;
+height: 180px;
+}
+.change h1{
+ font-size: 23px;
+ text-align: center;   
+}
+.change p{
+width: 100%;
+font-size: 19px;
+padding-top: 13px;
+}
+.timeicon{
+ display: block;
+ text-align: center;
+}
+.icon{ 
+ font-size: 33px;   
+ margin-top: 15px;
+ text-align: center;   
+}
+.lastnews{
+    text-align: center;
+}
+.lastnews h1{
+  transform: translateY(17px);
+  font-size: 29px;  
+}
+.title p{
+ width: 100%;
+ font-size: 23px;   
+}
+.title time{
+ font-size: 24px;   
+}
+.hr{
+ width: 85.5%;
+ margin: 0 auto; 
+}    
+}

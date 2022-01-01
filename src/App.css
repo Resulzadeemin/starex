@@ -1,0 +1,56 @@
+.ant-input{
+    font-size: 20px !important;
+}
+.ant-input-affix-wrapper > input.ant-input{
+    text-align:center;
+}
+.ant-spin-dot {
+    font-size: 70px !important;
+    margin-top: 50px;
+}
+.ant-btn-primary{
+    font-size: 20px!important;
+    background-color:#005aff !important;
+    border: 0 !important;
+    outline: none !important;
+    color: #fff !important;
+    border-radius:3px 3px 0 0  !important;
+}
+.ant-input-affix-wrapper{
+    box-shadow: 0 0 0 !important;
+    border-color:gray !important ;
+}
+.ant-input{
+    box-shadow: 0 0 0 !important;
+    border-color:#005aff !important;
+}
+.slick-dots li button {
+    width: 20px !important;
+    height: 5px !important;
+    background-color: #0044c2 !important;
+}
+.ant-input-affix-wrapper input{
+    text-align: start !important;
+}
+.ant-input-affix-wrapper{
+    outline: none !important;
+    border: 0 !important;
+    border-radius: 5px !important;
+    padding:5px 10px !important;
+    width: 400px !important;
+    border: 1px solid black !important;
+    text-align: start !important;
+    font-size: 18px !important;
+}
+
+@media screen and (max-width: 767px){
+.ant-input-affix-wrapper{
+ width: 85vw !important;   
+}    
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+.ant-input-affix-wrapper{
+ width: 66vw !important;   
+}     
+}

@@ -1,0 +1,99 @@
+.login{
+    margin-top: 100px;
+}
+.title{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.input1,.input2{
+    text-align: center;
+}
+.input2{
+    padding-top: 20px;
+}
+.input1 input,.input2 input{
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    padding:6px 10px;
+    width: 400px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 18px;   
+}
+.display{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.check span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+.text p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.button{
+    text-align: center;
+}
+.button button{
+    text-align: center;
+    padding-top: 20px;
+    padding:10px 10px;
+    width: 400px;
+    background-color: #005aff;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600; 
+    font-size: 20px;
+    transition: .4s;
+    cursor: pointer;
+    transition: .5s;
+}
+.button button:hover{
+    background-color: #548cf5;
+}
+.article p{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 767px){
+.input1 input,.input2 input{
+ width: 90%;
+}
+.display{
+width: 90%;
+justify-content: space-between;
+}
+.button button{
+ width: 90%;
+}
+.article p{
+  font-size: 16px;  
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+ .display{
+width: 90%;
+justify-content: space-evenly;
+}
+.article p{
+  font-size: 20px;  
+}   
+}

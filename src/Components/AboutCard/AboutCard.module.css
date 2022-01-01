@@ -1,0 +1,110 @@
+.cards{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+    margin:100px 80px;
+}
+.aboutimg1 img{
+    position: absolute;
+    height: 60vh;
+    width: 35%;
+    border-radius: 5px;
+    background-size: cover; 
+    box-shadow: 10px 10px 51px -23px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 51px -23px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 51px -23px rgba(0,0,0,0.75);
+}
+.aboutimg2 img{
+    position: relative;
+    width: 90%;
+    height: 50vh;
+    object-fit: cover;
+    margin: 200px 190px 0;
+    border-radius: 5px;
+    box-shadow: 10px 10px 51px -23px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 51px -23px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 51px -23px rgba(0,0,0,0.75);
+}
+.text{
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 80px;
+}
+.text h1{
+    font-size: 32px;
+    padding: 50px 150px;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #003087;
+}
+.text p{
+    width: 60%;
+    margin: 0 auto;
+    transform: translateY(-15px);
+    font-size: 20px;
+    color: #00172c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 767px){
+.cards{
+display: block;
+margin: 0px 0px;
+padding-top: 0px;
+}
+.aboutimg1 img{
+display: none;
+}
+.aboutimg2 img{
+width: 100%;    
+margin: 0px 12px ;
+}
+.text{   
+width: 100%;
+margin: 0 auto;
+margin-left: 14px;
+text-align: center;
+padding-top: 40px;
+}
+.text h1{
+font-size: 32px;
+padding: 0px 0px;
+}
+.text p{
+ width: 100%;
+ font-size: 18px;
+ padding-top: 10px; 
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+.cards{
+display: block;
+margin: 0px 70px;
+padding-top: 0px;
+transform: translateY(-118px);
+}
+.aboutimg1 img{
+display: none;
+}
+.aboutimg2 img{
+    width: 93%;
+    height: 42vh;
+    margin: 160px 0px ;
+}
+.text{
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 0px;
+    transform: translateY(-90px);
+}
+.text h1{
+    padding: 0px 0px;
+}
+.text p{
+    width: 100%;
+}
+ 
+}

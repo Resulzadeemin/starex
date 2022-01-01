@@ -1,0 +1,26 @@
+.slider{
+    padding-top: 30px;
+}
+.img img{
+    width: 1200px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.63);
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .slider{
+        padding-top: 0px;
+        transform: translateY(-290px);
+        width: 95%;
+        margin: 0 auto;
+
+    } 
+}
+
+@media (min-width: 320px) and (max-width: 538px){
+.slider{
+  width: 90%;
+  margin: 0 auto;  
+  padding-top: 10px;
+}    
+}

@@ -1,0 +1,29 @@
+.section7{
+    margin-top: 100px;
+}
+.section7 h1{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #003087;
+    text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+ .section7{
+    margin-top: 0px;
+    transform: translateY(-90px);
+}
+.section7 h1{
+   font-size: 36px; 
+}   
+}
+
+@media (min-width: 320px) and (max-width: 538px){
+.section7{
+    margin-top: 45px;
+}
+.section7 h1{
+   font-size: 29px; 
+}
+}
