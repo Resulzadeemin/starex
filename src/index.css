@@ -19,7 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
   	text-decoration: none;
 	box-sizing: border-box;
-	line-height: 2;
+	line-height: 1.7;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
