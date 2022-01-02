@@ -40,13 +40,13 @@
 }
 .weight select{
     width: 70px;
-    padding: 9px;
+    padding: 10px;
     border-radius: 0 5px 5px 0;
     border: 2px solid gray;
     border-left:0 ;
     outline: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15.5px;
+    font-size: 15px;
     background-color:#fff ;
 }
 .btn h1{
