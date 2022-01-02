@@ -32,7 +32,7 @@
 }
 .weight input{
     width: 180px;
-    padding: 8.1px;
+    padding: 7px;
     border-radius: 5px 0 0 5px;
     border: 2px solid gray;
     border-right:none ;
@@ -46,7 +46,7 @@
     border-left:0 ;
     outline: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14.5px;
+    font-size: 14px;
     background-color:#fff ;
 }
 .btn h1{
