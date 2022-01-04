@@ -35,7 +35,7 @@ function Shops() {
 
         let value = e.target.value;
         if (value.length > 0) {
-            let data = filtered.filter(e => e.name.toLowerCase().includes(value))
+            let data = filtered.filter(e => e.name.toLowerCase().includes(value.toLowerCase()))
             setFiltered(data);
         } else {
             setFiltered(filteredCat)
