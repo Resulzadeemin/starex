@@ -67,7 +67,6 @@
   display: flex;
   width: 100%;
   float: left;
-  border-bottom: 1px dashed lavender;
   position: relative;
   padding: 15px 0;
 }
@@ -87,7 +86,6 @@
 .sub__menus {
   position: absolute;
   display: none;
-  border: 1px solid lavender;
   width: 227px;
   left: -17px;
   padding: 2px 0 0 0;
