@@ -1,5 +1,6 @@
 .section1{
-    background: url("../Img/starexBG.jpg")center/cover;
+    background:linear-gradient(to left, rgba(83, 83, 83, 0.075), rgba(56, 56, 56, 0.089)),url("../Img/starexBG.jpg")center/cover;
+    background-attachment: fixed;
     height: 70vh;
     margin-top: 100px;
     padding: 80px;
