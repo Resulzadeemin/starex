@@ -25,9 +25,10 @@
     border-color:#005aff !important;
 }
 .slick-dots li button {
-    width: 20px !important;
-    height: 5px !important;
-    background-color: #0044c2 !important;
+    width: 22px !important;
+    padding: 10px !important;
+    border-radius: 40px !important;
+    background-color: #005aff !important;
 }
 .ant-input-affix-wrapper input{
     text-align: start !important;
@@ -45,12 +46,12 @@
 
 @media screen and (max-width: 767px){
 .ant-input-affix-wrapper{
- width: 85vw !important;   
+    width: 85vw !important;   
 }    
 }
 
 @media (min-width: 768px) and (max-width: 1024px){
 .ant-input-affix-wrapper{
- width: 66vw !important;   
+    width: 66vw !important;   
 }     
 }
