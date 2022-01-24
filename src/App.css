@@ -26,9 +26,8 @@
 }
 .slick-dots li button {
     width: 22px !important;
-    padding: 10px !important;
-    border-radius: 40px !important;
-    background-color: #005aff !important;
+    padding: 7px !important;
+    border-radius: 30px !important;
 }
 .ant-input-affix-wrapper input{
     text-align: start !important;
